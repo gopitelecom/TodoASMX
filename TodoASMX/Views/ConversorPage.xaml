@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms" 
+			 xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+			 x:Class="TodoASMX.ConversorPage"
+			 Title="Conversor de Temperatura">
+	<StackLayout VerticalOptions="StartAndExpand">
+        <Label Text="Usando un webService SOAP" FontSize="Title"/>
+        <Label Text="" />
+        <Label Text="Introducir temperatura en ºC" FontSize="Medium"/>
+        <Entry x:Name="nameEntry" Text="{Binding Path=Name}" Placeholder="" />
+        
+        <Label Text="La temperatura en ºF es:" FontSize="Medium"/>
+        <Entry x:Name="nameEntry2" Text="{Binding Path=Name}" Placeholder="" />
+		
+        <Button Text="Convertir" Clicked="OnConvertirActivated" FontSize="Medium"/>
+
+        <Label Text="" />
+
+        <Button Text="Página Servicio Web" Clicked="OnUrlActivated" FontSize="Medium"/>
+
+        <Label Text="" />
+
+        <Label Text="jesusdaryanani@gmail.com" HorizontalTextAlignment="Center" FontSize="Medium"/>
+
+        <Label Text="" />
+
+        <Label Text="Se agradecen sugerencias y comentarios." HorizontalTextAlignment="Center" FontSize="Medium"/>
+        <Label Text="Suggestions and comments are appreciated." HorizontalTextAlignment="Center" FontSize="Medium"/>
+
+
+    </StackLayout>
+</ContentPage>

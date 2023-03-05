@@ -1,0 +1,17 @@
+{
+  "ExtendedData": {
+    "inputs": [
+      "https://www.elguille.info/NET/WebServices/CelsiusFahrenheit.asmx?WSDL"
+    ],
+    "collectionTypes": [
+      "System.Array",
+      "System.Collections.Generic.Dictionary`2"
+    ],
+    "namespaceMappings": [
+      "*, Zeus"
+    ],
+    "sync": true,
+    "targetFramework": "netstandard2.0",
+    "typeReuseMode": "All"
+  }
+}
