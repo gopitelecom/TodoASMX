@@ -13,7 +13,12 @@ namespace TodoASMX.Models
 {
     public class Zeus
     {
-
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="baseUrl"></param>
+        /// <param name="xmlString"></param>
+        /// <returns></returns>
         public static async Task<HttpResponseMessage> PostXmlRequest(string baseUrl, string xmlString)
         {
             using (var httpClient = new HttpClient())
