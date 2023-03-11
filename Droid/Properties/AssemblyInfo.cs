@@ -26,3 +26,4 @@ using Android.App;
 //[assembly: AssemblyDelaySign(false)]
 //[assembly: AssemblyKeyFile("")]
 
+[assembly: Application(UsesCleartextTraffic = true)]
