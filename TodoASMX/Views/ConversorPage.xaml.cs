@@ -7,7 +7,7 @@ using TodoASMX.Models;
 using Xamarin.Forms;
 using System.Threading.Tasks;
 using Xamarin.Essentials;
-
+using System.Runtime.InteropServices;
 
 namespace TodoASMX
 {
@@ -39,6 +39,9 @@ namespace TodoASMX
             }
             // Show 
             nameEntry2.Text = i.Body.CaFResponse.CaFResult.ToString();
+
+            String res = await Zeus.CreateSoapEnvelope("a");
+
             // Refresh
             await Navigation.PopAsync();
 
